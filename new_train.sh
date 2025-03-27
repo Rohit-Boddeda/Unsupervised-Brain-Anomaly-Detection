@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python new_train.py --n-gpu-per-node 1 --name IXI --beta-max 0.3 --clip-denoise --image-size 128 --cond-x1 --batch-size 256 --microbatch 16 --num-itr 100000 --log-dir ./IXI_logs/ --log-writer tensorboard 
